@@ -48,11 +48,12 @@
     }
 
     &::before {
-        // opacity: 1;
+        // opacity: 0;
         content: "";
         position: absolute;
         inset: 0;
-        box-shadow: 0 0 3rem 1rem black;
+        // ! TODO
+        // box-shadow: 0 0 3rem 1rem black;
     }
 
     &:hover,
